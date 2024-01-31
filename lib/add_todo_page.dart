@@ -17,6 +17,7 @@ class _AddTodoPageState extends State<AddTodoPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Add Todo'),
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -11,6 +11,7 @@ class TodoList extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Todo List'),
+        backgroundColor: Colors.blue,
       ),
       body: BlocBuilder<TodoCubit, List<Todo>>(
         builder: (context, todos) {
