@@ -24,17 +24,17 @@ class TodoList extends StatelessWidget {
                 title: Column(
                   children: [
                     Card(
-                        margin: EdgeInsets.all(5),
+                        margin: const EdgeInsets.all(5),
                         shadowColor: Colors.black,
                         elevation: 10,
                         child: Container(
-                            color: Color.fromARGB(255, 123, 236, 202),
-                            padding: EdgeInsets.symmetric(horizontal: 10),
+                            color: const Color.fromARGB(255, 123, 236, 202),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             child: Text(
                               todo.name,
-                              style: TextStyle(fontSize: 25),
+                              style: const TextStyle(fontSize: 25),
                             ))),
-                    Divider()
+                    const Divider()
                   ],
                 ),
                 trailing: Checkbox(
